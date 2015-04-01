@@ -2,10 +2,164 @@
 /* CSS Document */
 
 body {min-width: 768px;
-	max-width: 991px;}
+	max-width: 991px;
+	font-family: calibri, "Trebuchet MS", Arial, sans-serif;
+	font-weight: lighter;
+	}
+
+
+
+li {list-style-type: none;
+	font-size: 24px;}
+
+#wrapper {}
+
+		
+header {
+	position: relative;
+	background-color: #073763;
+	color: #CCC;
+	width: 100%;
+	height: 100px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	z-index: 1;
+	margin-bottom:50px;
+}
+
+
+header li {
+	display:inline;
+	float:left;
+	margin-left: 6%;
+	}
 	
+	
+#logo { margin-top: 30px;
+}
+#crc { margin-top: 30px;
+font-size: 28px;}
+
 #search {
-	display: none;
-	margin-top: 30px;
-	width: 180px;
+		margin-top: 30px;
+		margin-left: 2%;
+		position: fixed;
+		padding-right: 10px;
+		width: 250px;
 		}
+	
+#facebook {float: right;
+		margin-top: -59px;
+		margin-right: 185px;}
+
+#twitter {float: right;
+		margin-top: -58px;
+		margin-right: 153px;}
+
+#facebook:hover {border: thin;
+			border-style: solid;
+			border-radius: 25px;
+			border-color: #c99700;
+}
+
+#twitter:hover {border: thin;
+			border-style: solid;
+			border-radius: 35px;
+			border-color: #c99700;
+}
+	
+footer {clear: both;
+		bottom: 0;
+		position: fixed;
+		text-align: center;
+		font-size: 10px;
+		background-color: #073763;
+		color: #CCC;
+		padding-top: 10px;
+		padding-bottom: 5px;
+		margin: auto;
+		width: 100%;
+		height: 20px;
+		}
+
+/*layout*/
+#left {
+	margin-left:10%;
+	margin-right: 5%;
+	width: 40%;
+	margin-top: 100px;
+	padding-right: 50px;
+	}
+
+#right {
+	float: right;
+	margin-right:5%;
+	margin-left: 50px;;
+	width: 40%;
+	margin-top:-280px;
+	padding-left:50px;
+	}
+	
+#pyom {
+	width: 100%;
+	margin-bottom: 50px;
+	}
+#ccep{
+	width: 100%;
+	margin-top: 10px;
+	}
+
+#roi{
+	width:100%;
+	margin-bottom: 50px;
+	}
+
+#ej{
+	width: 100%;
+	margin-top: 10px;
+	}
+
+
+/*more style */
+
+a:link {color: #073763; text-decoration: none; 
+}
+a:visited {color: #073763; text-decoration: none;
+}
+a:hover {color: #c99700; text-decoration: underline;
+}
+a:active {color: #c99700; text-decoration: none;
+}
+#top:link {color: white;}
+#top:visited {color:white;}
+#top:hover {color:lightgrey; text-decoration: none;}
+#top:active {color: lightgrey;}
+
+h1 {text-align: center;
+	margin-top: 130px;
+	color: white;
+	font-size: 30pt;;
+}
+
+h2 {font-size:30px;}
+
+h3 {
+	color:  #073763;
+	font-size: 24px;
+	text-align: left;
+	}
+
+p {
+	color:  #073763;
+	font-size: 16px;
+	text-align: left;
+	}
+
+.text {
+	float: left;
+	width: 33.3%;
+	text-align: center;
+	cursor: pointer;
+}
+
